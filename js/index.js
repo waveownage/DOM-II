@@ -1,3 +1,5 @@
+
+
 //main-navigation
 
 let home = document.querySelectorAll('a')[0];
@@ -35,6 +37,18 @@ busimg.addEventListener('mouseenter', function(){
     busimg.style.transform = "rotate(360deg)";
     busimg.style.transitionDuration="5s"
 })
+
+//content-section
+
+let backColor = document.querySelector('.content-section')
+
+backColor.addEventListener('mouseleave', function(){
+    backColor.style.background = 'pink';
+    backColor.style.transitionDuration = '5s'
+})
+
+let mapimg = document.querySelect
+
 
 
 
