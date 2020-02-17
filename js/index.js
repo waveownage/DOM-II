@@ -39,7 +39,8 @@ let contact = document.querySelectorAll('a')[3];
 
 contact.addEventListener('mouseover', function () {
     contact.style.color = 'red';
-    contant.preventDefault();
+    contact.preventDefault();
+    contact.stopPropagation();
 });
 
 
@@ -101,6 +102,7 @@ let button3 = document.querySelectorAll(".btn")[2];
 
 button3.addEventListener('dblclick', function () {
     button3.style.backgroundColor = 'purple';
+    button3.stopPropagation();
 });
 
 
