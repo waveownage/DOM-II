@@ -47,12 +47,10 @@ backColor.addEventListener('mouseleave', function(){
     backColor.style.transitionDuration = '5s'
 })
 
-let mapimg = document.querySelect
+let mapImg = document.querySelector('.img-content img');
 
-
-
-
-
-
+mapImg.addEventListener('click', function(){
+    mapImg.style.transform = 'scale(1.2)';
+})
 
 
