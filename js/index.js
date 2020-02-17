@@ -29,6 +29,13 @@ homepar.setAttribute("tabindex", 0);
 homepar.addEventListener('keydown', function(){
     homepar.style.color = 'red'});
 
+let busimg = document.querySelector('img')
+
+busimg.addEventListener('mouseenter', function(){
+    busimg.style.transform = "rotate(360deg)";
+    busimg.style.transitionDuration="5s"
+})
+
 
 
 
