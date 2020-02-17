@@ -4,6 +4,10 @@ window.addEventListener('load', function() {
     console.log('Lets Go on an Adventure!');
   });
 
+window.addEventListener('scroll', function() {
+    console.log('scrolling through the site!');
+});
+
 //main-navigation
 
 let home = document.querySelectorAll('a')[0];
@@ -25,6 +29,8 @@ let contact = document.querySelectorAll('a')[3];
 
 contact.addEventListener('mouseover', function(){
     contact.style.color = 'red'});
+
+
 
 //Container Home
 
@@ -57,6 +63,15 @@ mapImg.addEventListener('click', function(){
     mapImg.style.transform = 'scale(1.2)';
 })
 
+//inverse-content-section
+
+let inpar = document.querySelector('.content-section inverse-content');
+
+inpar.addEventListener('focus', function(){
+    inpar.style.background = 'purple';
+    inpar.style.color = 'white';
+  }, true);
+
 //content-destination
 
 let button = document.querySelectorAll(".btn")[0];
@@ -76,6 +91,8 @@ let button3 = document.querySelectorAll(".btn")[2];
 button3.addEventListener('dblclick', function() {
     button3.style.backgroundColor = 'purple';
 });
+
+
 
 
 
