@@ -1,4 +1,8 @@
+//body
 
+window.addEventListener('load', function() {
+    console.log('Lets Go on an Adventure!');
+  });
 
 //main-navigation
 
@@ -10,17 +14,17 @@ home.addEventListener('mouseover', function(){
 let aboutus = document.querySelectorAll('a')[1];
 
 aboutus.addEventListener('mouseover', function(){
-    aboutus.style.color = 'blue'});
+    aboutus.style.color = 'yellow'});
 
 let blog = document.querySelectorAll('a')[2];
 
 blog.addEventListener('mouseover', function(){
-    blog.style.color = 'blue'});
+    blog.style.color = 'green'});
 
 let contact = document.querySelectorAll('a')[3];
 
 contact.addEventListener('mouseover', function(){
-    contact.style.color = 'blue'});
+    contact.style.color = 'red'});
 
 //Container Home
 
@@ -52,5 +56,26 @@ let mapImg = document.querySelector('.img-content img');
 mapImg.addEventListener('click', function(){
     mapImg.style.transform = 'scale(1.2)';
 })
+
+//content-destination
+
+let button = document.querySelectorAll(".btn")[0];
+
+button.addEventListener('dblclick', function() {
+    button.style.backgroundColor = 'orange';
+});
+
+let button2 = document.querySelectorAll(".btn")[1];
+
+button2.addEventListener('dblclick', function() {
+    button2.style.backgroundColor = 'pink';
+});
+
+let button3 = document.querySelectorAll(".btn")[2];
+
+button3.addEventListener('dblclick', function() {
+    button3.style.backgroundColor = 'purple';
+});
+
 
 
