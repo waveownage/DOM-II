@@ -20,6 +20,15 @@ let contact = document.querySelectorAll('a')[3];
 contact.addEventListener('mouseover', function(){
     contact.style.color = 'blue'});
 
+//Container Home
+
+let homepar = document.querySelector('.intro p');
+
+homepar.setAttribute("tabindex", 0);
+
+homepar.addEventListener('keydown', function(){
+    homepar.style.color = 'red'});
+
 
 
 
