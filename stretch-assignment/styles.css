@@ -17,20 +17,28 @@ body {
 
 .block--red {
   background-color: red;
+  position: relative;
+  display: flex;
+
 }
 
 .block--blue {
   background-color: blue;
+  position: relative;
+ 
 }
 
 .block--green {
   background-color: green;
+  position: relative;
 }
 
 .block--pink {
   background-color: pink;
+  position: relative;
 }
 
 .block--gray {
   background-color: gray;
+  position: relative;
 }
